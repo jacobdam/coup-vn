@@ -1,0 +1,14 @@
+commons: &commons
+  #common configurations placed here
+
+development:
+  <<: *commons
+  domain: localhost:3000
+
+test:
+  <<: *commons
+  domain: test.host
+
+production:
+  <<: *commons
+  domain: coup-vn.heroku.com
