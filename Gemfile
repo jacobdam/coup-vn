@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.0.0.rc'
+gem 'rails', '3.0.7'
 #gem 'formtastic', :git => 'git://github.com/justinfrench/formtastic.git', :branch => 'rails3'
 gem 'devise'
 gem 'haml'
